@@ -15,7 +15,11 @@ const Projects = () => {
 
   const fetchProjects = async () => {
     try {
-      const response = await axios.get("/api/projects");
+      const baseUrl = import.meta.env.VITE_API_URL || "";
+      
+      // GABUNGKAN baseUrl DENGAN ENDPOINT DI SINI
+      const response = await axios.get(`${baseUrl}/api/projects`);
+  
       setProjects(response.data.data)
       setLoading(false)
     } catch (err) {
