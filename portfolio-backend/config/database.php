@@ -1,8 +1,10 @@
 <?php
 
+use PDO; // <-- TAMBAHKAN BARIS INI
 use Illuminate\Support\Str;
 
 return [
+// ...
 
     /*
     |--------------------------------------------------------------------------
