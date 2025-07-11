@@ -177,7 +177,7 @@ const Projects = () => {
             <h2>Ingin Melihat Lebih Banyak?</h2>
             <p>Kunjungi profil GitHub saya untuk melihat semua proyek dan kontribusi open source</p>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Fandisamaga"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"

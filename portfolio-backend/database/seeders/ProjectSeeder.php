@@ -2,41 +2,57 @@
 
 namespace Database\Seeders;
 
+use App\Models\Project; // Pastikan ini ada
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Project;
+use SebastianBergmann\Type\FalseType;
 
 class ProjectSeeder extends Seeder
 {
-    public function run()
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
     {
-        Project::create([
-            'title' => 'E-Commerce Website',
-            'description' => 'A full-stack e-commerce website built with Laravel and React. Features include user authentication, product catalog, shopping cart, and payment integration.',
-            'technologies' => 'Laravel, React, MySQL, Bootstrap',
-            'image_url' => 'https://via.placeholder.com/400x300',
-            'demo_link' => 'https://demo-ecommerce.com',
-            'github_link' => 'https://github.com/yourusername/ecommerce-project',
-            'featured' => true
-        ]);
+        // Data untuk proyek pertama
+        Project::firstOrCreate(
+            ['title' => 'Guest Registration App'], // Kriteria untuk mencari (misal: berdasarkan judul)
+            [
+                'description' => 'A pure frontend application for recording guest data, featuring CSV export and local storage (LocalStorage).',
+                'technologies' => 'React.js, Vite, CSS, LocalStorage, DownloadCSV',
+                'image_url' => '/img/Catatan Tamu Web.png',
+                'demo_link' => null,
+                'github_link' => 'https://github.com/fandisamaga/tamu-penginapan',
+                'featured' => false
+            ]
+        );
 
-        Project::create([
-            'title' => 'Task Management App',
-            'description' => 'A collaborative task management application with real-time updates. Users can create projects, assign tasks, and track progress.',
-            'technologies' => 'PHP, JavaScript, MySQL, CSS',
-            'image_url' => 'https://via.placeholder.com/400x300',
-            'demo_link' => null,
-            'github_link' => 'https://github.com/yourusername/task-manager',
-            'featured' => false
-        ]);
+        // Data untuk proyek kedua
+        Project::firstOrCreate(
+            ['title' => 'Akademik Web'], // Kriteria untuk mencari
+            [
+                'description' => 'Built a monolithic web application for academic data management using Laravel with Blade-based frontend.',
+                'technologies' => 'Laravel, Tailwind CSS, Vite, MariaDB',
+                'image_url' => '/img/Akademik Web.png',
+                'demo_link' => null,
+                'github_link' => 'https://github.com/fandisamaga/akademik-sikad',
+                'featured' => true
+            ]
+        );
 
-        Project::create([
-            'title' => 'Weather Dashboard',
-            'description' => 'A responsive weather dashboard that displays current weather and forecasts for multiple cities using external weather API.',
-            'technologies' => 'HTML, CSS, JavaScript, Weather API',
-            'image_url' => 'https://via.placeholder.com/400x300',
-            'demo_link' => 'https://weather-dashboard-demo.com',
-            'github_link' => 'https://github.com/yourusername/weather-dashboard',
-            'featured' => false
-        ]);
+        // Data untuk proyek ketiga
+        Project::firstOrCreate(
+            ['title' => 'Sales Web'], // Kriteria untuk mencari
+            [
+                'description' => 'Built a monolithic web application for sales data management, including products, customers, and sales transactions, using Laravel with Blade-based frontend.',
+                'technologies' => 'Laravel, Tailwind CSS, Vite, MariaDB',
+                'image_url' => '/img/Sales Web.png',
+                'demo_link' => null,
+                'github_link' => 'https://github.com/fandisamaga/web-Sales',
+                'featured' => true
+            ]
+        );
+
+        // Tambahkan proyek lain di sini dengan format yang sama
     }
 }

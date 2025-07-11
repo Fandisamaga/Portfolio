@@ -13,24 +13,24 @@ const About = () => {
                 <div className="about-section">
                   <h2>Profil Singkat</h2>
                   <p>
-                    Saya adalah mahasiswa Teknik Informatika semester 5 di Universitas ABC dengan IPK 3.7. Selama
+                    Saya adalah mahasiswa Teknik Informatika yang telah selesai semester 4 dan sekarang memasuki awal semester 5, portfolio ini saya buat khusus untuk 
+                    syarat magang, saya dari Universitas Tadulako dengan IPK 3.37. Selama
                     perkuliahan, saya telah mempelajari berbagai teknologi pengembangan web, khususnya Laravel untuk
                     backend dan React JS untuk frontend.
                   </p>
                   <p>
                     Saya memiliki pengalaman dalam mengembangkan aplikasi web melalui berbagai proyek kuliah dan proyek
-                    pribadi. Saya juga aktif dalam organisasi kampus sebagai anggota divisi IT yang membantu mengembangkan
-                    website organisasi.
+                    pribadi. Saya juga punya insiatif tinggi dalam proses belajar dan keingintahuan yang tinggi dalam pembelajaran.
                   </p>
                 </div>
   
                 <div className="about-section">
                   <h2>Pendidikan</h2>
                   <div className="education-item">
-                    <h3>Teknik Informatika</h3>
-                    <p className="education-school">Universitas ABC</p>
-                    <p className="education-period">2021 - Sekarang (Semester 5)</p>
-                    <p className="education-gpa">IPK: 3.7/4.0</p>
+                    <h3> S1 Teknik Informatika</h3>
+                    <p className="education-school">Universitas Tadulako</p>
+                    <p className="education-period">2023 - Sekarang (Semester 5)</p>
+                    <p className="education-gpa">IPK: 3.37/4.0</p>
                     <div className="education-courses">
                       <h4>Mata Kuliah Relevan:</h4>
                       <ul>
@@ -45,15 +45,16 @@ const About = () => {
                 </div>
   
                 <div className="about-section">
-                  <h2>Pengalaman Organisasi</h2>
+                  <h2>Pengalaman</h2>
                   <div className="experience-item">
-                    <h3>Anggota Divisi IT</h3>
-                    <p className="experience-org">Himpunan Mahasiswa Teknik Informatika</p>
-                    <p className="experience-period">2022 - Sekarang</p>
+                    <h3>Magang – IT Support </h3>
+                    <p className="experience-org">Subdivision of Planning and Programs
+                    Dinas Koperasi and UKM, Buol </p>
+                    <p className="experience-period">2022 </p>
                     <ul>
-                      <li>Mengembangkan dan memelihara website organisasi</li>
-                      <li>Memberikan support teknis untuk event-event organisasi</li>
-                      <li>Mengajarkan workshop dasar web development untuk junior</li>
+                      <li>Memberikan dukungan teknis dasar untuk operasional kantor sehari-hari, termasuk instalasi perangkat keras dan perangkat lunak.</li>
+                      <li>Membantu dalam penyusunan dan pengelolaan dokumen program kerja kantor</li>
+                      <li>Terlibat dalam konfigurasi dasar jaringan komputer untuk memastikan konektivitas</li>
                     </ul>
                   </div>
                 </div>
@@ -61,18 +62,18 @@ const About = () => {
   
               <div className="about-sidebar">
                 <div className="profile-card">
-                  <img src="/placeholder.svg?height=300&width=250" alt="Profile" className="profile-image" />
+                  <img src="/img/profilsaya.jpg" alt="Profile" className="profile-img" />
                   <div className="profile-info">
-                    <h3>John Doe</h3>
+                    <h3>SUPARMAN</h3>
                     <p>Computer Science Student</p>
                     <div className="profile-details">
                       <div className="detail-item">
                         <strong>Lokasi:</strong>
-                        <span>Jakarta, Indonesia</span>
+                        <span>Buol, Sulawesi Tengah,  Indonesia</span>
                       </div>
                       <div className="detail-item">
                         <strong>Email:</strong>
-                        <span>john.doe@email.com</span>
+                        <span>fandisamaga@email.com</span>
                       </div>
                       <div className="detail-item">
                         <strong>Status:</strong>
@@ -91,37 +92,37 @@ const About = () => {
                     <div className="skill-item">
                       <span className="skill-name">Laravel</span>
                       <div className="skill-bar">
-                        <div className="skill-progress" style={{ width: "85%" }}></div>
+                        <div className="skill-progress" style={{ width: "70%" }}></div>
                       </div>
                     </div>
                     <div className="skill-item">
                       <span className="skill-name">React JS</span>
                       <div className="skill-bar">
-                        <div className="skill-progress" style={{ width: "80%" }}></div>
+                        <div className="skill-progress" style={{ width: "60%" }}></div>
                       </div>
                     </div>
                     <div className="skill-item">
                       <span className="skill-name">PHP</span>
                       <div className="skill-bar">
-                        <div className="skill-progress" style={{ width: "85%" }}></div>
+                        <div className="skill-progress" style={{ width: "70%" }}></div>
                       </div>
                     </div>
                     <div className="skill-item">
                       <span className="skill-name">MySQL</span>
                       <div className="skill-bar">
-                        <div className="skill-progress" style={{ width: "75%" }}></div>
+                        <div className="skill-progress" style={{ width: "70%" }}></div>
                       </div>
                     </div>
                     <div className="skill-item">
                       <span className="skill-name">JavaScript</span>
                       <div className="skill-bar">
-                        <div className="skill-progress" style={{ width: "80%" }}></div>
+                        <div className="skill-progress" style={{ width: "50%" }}></div>
                       </div>
                     </div>
                     <div className="skill-item">
                       <span className="skill-name">Git</span>
                       <div className="skill-bar">
-                        <div className="skill-progress" style={{ width: "70%" }}></div>
+                        <div className="skill-progress" style={{ width: "60%" }}></div>
                       </div>
                     </div>
                   </div>

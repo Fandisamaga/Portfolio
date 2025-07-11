@@ -25,11 +25,11 @@ const Home = () => {
             </Link>
           </div>
           <div className="hero-social">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="social-link">
+            <a href="https://github.com/Fandisamaga" target="_blank" rel="noopener noreferrer" className="social-link">
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/suparman006/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link"
@@ -94,8 +94,8 @@ const Home = () => {
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
-            <h2>Siap untuk Magang</h2>
-            <p>Saya sedang mencari kesempatan magang untuk semester 5 (agustus - september 2025)</p>
+            <h2>Siap untuk Magang </h2>
+            <p> sedang mencari kesempatan magang untuk semester 5 di tahun 2025 saat ini</p>
             <Link to="/contact" className="btn btn-primary">
               Mari Berdiskusi
             </Link>

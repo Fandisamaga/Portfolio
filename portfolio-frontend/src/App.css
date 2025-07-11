@@ -278,41 +278,6 @@ main {
   color: #e74c3c;
 }
 
-/* Contact Page */
-.contact {
-  padding: 80px 0;
-}
-
-.contact h1 {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.contact > .container > p {
-  text-align: center;
-  margin-bottom: 3rem;
-  color: #666;
-}
-
-.contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-}
-
-.contact-info h3,
-.contact-form h3 {
-  color: #2c3e50;
-  margin-bottom: 1.5rem;
-}
-
-.contact-item {
-  margin-bottom: 1.5rem;
-}
-
-.contact-item strong {
-  color: #34495e;
-}
 
 .cv-download {
   margin-top: 2rem;
@@ -426,6 +391,9 @@ main {
     flex-direction: column;
     align-items: center;
   }
+
+
+  
 
   .about-grid,
   .contact-content {

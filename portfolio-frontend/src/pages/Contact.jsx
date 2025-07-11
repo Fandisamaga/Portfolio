@@ -49,7 +49,7 @@ const Contact = () => {
         <section className="contact-hero">
           <h1>Hubungi Saya</h1>
           <p>
-            Tertarik untuk berkolaborasi atau memberikan kesempatan magang? Mari berdiskusi! Saya selalu terbuka untuk
+             Saya selalu terbuka untuk
             peluang baru.
           </p>
         </section>
@@ -64,8 +64,8 @@ const Contact = () => {
                   <div className="contact-icon">📧</div>
                   <div className="contact-details">
                     <h3>Email</h3>
-                    <p>john.doe@email.com</p>
-                    <a href="mailto:john.doe@email.com" className="contact-link">
+                    <p>fandisamaga@email.com</p>
+                    <a href="mailto:fandisamaga@email.com" className="contact-link">
                       Kirim Email
                     </a>
                   </div>
@@ -75,8 +75,8 @@ const Contact = () => {
                   <div className="contact-icon">📱</div>
                   <div className="contact-details">
                     <h3>Telepon</h3>
-                    <p>+62 812-3456-7890</p>
-                    <a href="tel:+6281234567890" className="contact-link">
+                    <p>+62 822-9625-9955</p>
+                    <a href="tel:+6282296259955" className="contact-link">
                       Hubungi
                     </a>
                   </div>
@@ -86,7 +86,7 @@ const Contact = () => {
                   <div className="contact-icon">📍</div>
                   <div className="contact-details">
                     <h3>Lokasi</h3>
-                    <p>Jakarta, Indonesia</p>
+                    <p>Buol, Sulawesi Tengah, Indonesia</p>
                     <span className="contact-note">Tersedia untuk remote/hybrid</span>
                   </div>
                 </div>
@@ -95,9 +95,9 @@ const Contact = () => {
                   <div className="contact-icon">💼</div>
                   <div className="contact-details">
                     <h3>LinkedIn</h3>
-                    <p>linkedin.com/in/johndoe</p>
+                    <p>linkedin.com/in/suparman006</p>
                     <a
-                      href="https://linkedin.com/in/johndoe"
+                      href="https://www.linkedin.com/in/suparman006/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="contact-link"
@@ -117,7 +117,7 @@ const Contact = () => {
                 <div className="availability-details">
                   <div className="detail-row">
                     <strong>Periode:</strong>
-                    <span>Februari - Juni 2024</span>
+                    <span> agustus -  tidak ditentukan  2025</span>
                   </div>
                   <div className="detail-row">
                     <strong>Durasi:</strong>
@@ -134,7 +134,7 @@ const Contact = () => {
                 <h3>Ikuti Saya</h3>
                 <div className="social-buttons">
                   <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/Fandisamaga"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-btn github"
@@ -142,7 +142,7 @@ const Contact = () => {
                     GitHub
                   </a>
                   <a
-                    href="https://linkedin.com/in/yourprofile"
+                    href="https://www.linkedin.com/in/suparman006/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-btn linkedin"
@@ -150,7 +150,7 @@ const Contact = () => {
                     LinkedIn
                   </a>
                   <a
-                    href="https://instagram.com/yourusername"
+                    href="https://www.instagram.com/f4nd1s4m4g4/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="social-btn instagram"
@@ -162,14 +162,14 @@ const Contact = () => {
             </div>
 
             <div className="contact-form-container">
+            <h2>Kirim Pesan</h2>
               <div className="contact-form-card">
-                <h2>Kirim Pesan</h2>
                 <form onSubmit={handleSubmit} className="contact-form">
                   <div className="form-row">
                     <div className="form-group">
                       <label htmlFor="name">Nama Lengkap</label>
                       <input
-                        type="text"
+                          type="text"
                         id="name"
                         name="name"
                         value={formData.name}
